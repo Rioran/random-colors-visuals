@@ -1,6 +1,8 @@
 # random-colors-visuals
 
-Take a look at random colors blinking on a screen. SPACE or TAP to reset, ESC to quit.
+### loop colors
+
+Loop screen colors by pressing SPACE or quit by pressing ESCAPE.
 
 ### install libraries
 ```bash

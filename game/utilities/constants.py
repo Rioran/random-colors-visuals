@@ -4,8 +4,8 @@ import pygame
 
 
 MAX_FPS: Final = 25
-HEIGHT: Final = 400
-WIDTH: Final = 600
+HEIGHT: Final = 800
+WIDTH: Final = 1200
 GAME_CAPTION: Final = \
     'Nerve smoothing visuals' \
     ' // SPACE or click to reset' \
