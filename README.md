@@ -10,13 +10,19 @@ pip install -r requirements.txt
 ```
 
 ### run game locally
+Pygbag requires us to go to the game folder in order to use assets:
 ```bash
-python game/main.py
+cd game
+```
+And them run the game:
+```bash
+python main.py
 ```
 
 ### build html file
+From inside the game folder:
 ```bash
-pygbag --build game
+pygbag --build .
 ```
 Move files from game/build/web to game/web-source if you want to change the repository files. Build folder is ignored by git.
 
