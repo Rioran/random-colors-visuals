@@ -1,4 +1,5 @@
 import asyncio
+from random import randint
 import sys
 
 import pygame
@@ -9,8 +10,7 @@ async def main():
     screen: pygame.Surface = pygame.display.set_mode((1200, 800))
     clock = pygame.time.Clock()
 
-    colors = ('yellow', 'blue', 'red')
-    color_index = 0
+    logo: pygame.Surface = pygame.image.load("game/static/py-logo.png").convert()
 
     while True:
         for event in pygame.event.get():
@@ -18,10 +18,9 @@ async def main():
                 continue
 
             if event.key == pygame.K_SPACE:
-                color_index = (color_index + 1) % len(colors)
-                new_color = colors[color_index]
-                screen.fill(new_color)
-                pygame.display.update()
+                screen.fill('black')
+                update = screen.blit(logo, (randint(0, 1000), randint(0, 700)))
+                pygame.display.update(update)
 
             if event.key == pygame.K_ESCAPE:
                 pygame.quit()

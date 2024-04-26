@@ -1,8 +1,8 @@
 # random-colors-visuals
 
-### loop colors
+### paste logo randomly
 
-Loop screen colors by pressing SPACE or quit by pressing ESCAPE.
+Each SPACE adds python logo to a random place. ESCAPE to quit.
 
 ### install libraries
 ```bash
