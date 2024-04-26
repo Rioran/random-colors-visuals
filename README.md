@@ -23,7 +23,7 @@ Move files from game/build/web to game/web-source if you want to change the repo
 pygbag --build --archive game
 ```
 
-# 2023-08-20:
+### useful links
 - game hosted on https://rioran.itch.io/random-shifting-colors
 - also due to ios conflict with itch-io on https://rioran.github.io/random-colors-visuals/game/web-source/index.html
 - source code can be found here https://github.com/Rioran/random-colors-visuals
